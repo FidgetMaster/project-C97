@@ -7,6 +7,7 @@ while chances < 5:
     guess = int(input("Enter Your Guess: "))
     if(guess == number):
         print("You Win!")
+        break
     elif(guess < number):
         print("Too Low, Guess A Number Higher Than: ", guess)
     else:
